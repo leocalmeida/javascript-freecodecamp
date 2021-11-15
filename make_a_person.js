@@ -4,11 +4,11 @@ var Person = function (firstAndLast) {
   var fullName = firstAndLast;
 
   this.getFirstName = function () {
-    const [first, last] = firstAndLast.split(" ");
+    const [first, last] = fullName.split(" ");
     return first;
   };
   this.getLastName = function () {
-    const [first, last] = firstAndLast.split(" ");
+    const [first, last] = fullName.split(" ");
     return last;
   };
   this.getFullName = function () {
@@ -16,11 +16,11 @@ var Person = function (firstAndLast) {
   };
 
   this.setFirstName = function (firstName) {
-    const [first, last] = firstAndLast.split(" ");
+    const [first, last] = fullName.split(" ");
     fullName = firstName + " " + last;
   };
   this.setLastName = function (lastName) {
-    const [first, last] = firstAndLast.split(" ");
+    const [first, last] = fullName.split(" ");
     fullName = first + " " + lastName;
   };
   this.setFullName = function (firstAndLast) {
