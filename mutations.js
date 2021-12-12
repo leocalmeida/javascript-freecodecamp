@@ -1,7 +1,7 @@
 function mutation(arr) {
   let control = true;
-  let first = arr[0].toLowerCase();
-  let sec = arr[1].toLowerCase();
+  const first = arr[0].toLowerCase();
+  const sec = arr[1].toLowerCase();
   for (i in sec) {
     if (!first.includes(sec[i])) {
       control = false;

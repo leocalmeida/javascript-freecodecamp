@@ -1,0 +1,23 @@
+{
+  "name": "javascript-freecodecamp",
+  "version": "1.0.0",
+  "description": "[![JavaScript](https://img.shields.io/badge/JavaScript-F2BB19)](https://www.javascript.com/) # JavaScript Algorithms and Data Structures This files are my solutions of some exercicies in the course JavaScript Algorithms and Data Structures (300 hours) of [FreeCodeCamp](https://www.freecodecamp.org/)",
+  "main": "Finders Keepers.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leocalmeida/javascript-freecodecamp.git"
+  },
+  "author": "Leonardo C. Almeida",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leocalmeida/javascript-freecodecamp/issues"
+  },
+  "homepage": "https://github.com/leocalmeida/javascript-freecodecamp#readme",
+  "devDependencies": {
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb-base": "^15.0.0"
+  }
+}
